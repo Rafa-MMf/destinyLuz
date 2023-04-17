@@ -10,6 +10,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0b0f12;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #64b74a;    
+    border-radius: 20px;
+    border: 3px solid #0b0f12;
+}
+
 /*------------------------ Fundo */
 .fundo-video {
     position: absolute;
@@ -68,6 +82,10 @@ body {
 
 .cabecalho nav li a:hover {
     background-color: rgb(222 116 209 / 47%);
+}
+
+#btn-detalhes:hover {
+    background-color: rgb(100 183 74 / 47%);
 }
 
 
