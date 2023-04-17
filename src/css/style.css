@@ -75,8 +75,8 @@ body {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    height: calc(100vh - 132px);
-    padding: 0 30px 30px;
+    height: calc(100vh - 135px);
+    padding: 0 30px;
 }
 
 .container .imagem-titulo {
@@ -142,14 +142,20 @@ body {
 }
 
 .fechar-modal {
-    background-color: #ffffff;
-    color: #f03a17;
+    background-color: #da52a6;
+    color: #fff;
     font-weight: bold;
-    font-size: 20px;
-    width: 40px;
+    font-size: 23px;
+    padding: 5px 25px;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
+    transition: 0.5s all ease-in-out;
+}
+
+.fechar-modal:hover {
+    transform: scale(1.2);
+    background-color: #da5252;
 }
 
 .modal iframe {
@@ -161,5 +167,106 @@ body {
 .modal.aberto {
     opacity: 1;
     visibility: visible;
+    z-index: 2;
 }
 
+/*------------------------ Detalhes */
+
+#detalhes {
+    background-image: url(https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltc113712a82235ab7/6303fee8456d687d3d3bf265/lightfall-media-shot-5-full.jpg);
+    overflow: hidden;
+}
+
+.box--preto {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 0;
+    padding: 0px 1rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px;
+}
+
+.box--preto-borda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgba(220,90,160,.5),transparent);
+}
+
+.box--preto-texto {
+    font-size: 25px;
+    color: #fff;
+    padding: 30px 0;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.LightfallSectionHeader_floatingHeading__2n63z {
+    -webkit-background-clip: text;
+    background-repeat: repeat;
+    background-clip: text;
+    background-size: 2752px 230px;
+    color: transparent;
+    -webkit-animation: BackgroundSlide 25s linear infinite;
+    animation: BackgroundSlide 25s linear infinite;
+}
+
+.LightfallSectionHeader_floatingHeading__2n63z {
+    z-index: 1;
+    position: absolute;
+    -webkit-transform: translate(-5%,-50%);
+    transform: translate(-5%,-50%);
+    width: 100vw;
+    font-size: 14rem;
+    letter-spacing: 2rem;
+    font-weight: 700;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+@keyframes BackgroundSlide
+{
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: -2752px 0;
+	}
+}
+
+
+.LightfallSectionHeader_header__2Xi_Q.LightfallSectionHeader_left__Y0K0W {
+    margin: 300px;
+}
+
+.LightfallSectionHeader_heading__2nWtJ {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 5px;
+    margin-bottom: .5rem;
+    text-shadow: 0 0 .5rem rgba(0,0,0,.9);
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.LightfallSectionHeader_divider__10El8 {
+    height: 4px;
+    width: 9rem;
+    background-color: #00cee0;
+}
+
+.LightfallSectionHeader_blurb__l4IMu {
+    font-size: 1.4rem;
+    color: #e6e6e6;
+    max-width: 45rem;
+    margin: 1rem 0 0;
+}
