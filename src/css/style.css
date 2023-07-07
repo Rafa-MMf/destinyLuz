@@ -1,4 +1,4 @@
-@import url(_reset.css);
+@import url('https://raw.githubusercontent.com/Rafa-MMf/destinyLuz/main/src/css/_reset.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
 
@@ -310,6 +310,7 @@ body {
     margin: 1rem 0 0;
     line-height: 1.2em;
 }
+<<<<<<< HEAD
 
 /*------------------------ Rodapé */
 
@@ -343,3 +344,5 @@ body {
     max-width: 200px;
     margin: 40px 0;
 }
+=======
+>>>>>>> f4a8f2138c6b33df23a7beeaec9198d48dca9bf5
