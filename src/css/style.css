@@ -411,6 +411,7 @@ body {
 
     #detalhes {
         background-position: 10% bottom;
+        height: 130vh;
     }
 
     .box--detalhes {
@@ -430,6 +431,10 @@ body {
 
     .inicio {
         height: 100vh;
+    }
+
+    .fundo-video::after {
+        height: 100%;
     }
 
 }
