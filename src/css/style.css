@@ -411,7 +411,7 @@ body {
 
     #detalhes {
         background-position: 10% bottom;
-        height: 1030px;
+        height: 1160px;
     }
 
     .box--detalhes {
@@ -430,11 +430,11 @@ body {
     }
 
     .inicio {
-        height: 880px;
+        height: 920px;
     }
 
     .fundo-video::after {
-        height: 1020px;
+        height: 1060px;
     }
 
     .rodape {
