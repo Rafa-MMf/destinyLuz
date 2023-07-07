@@ -428,6 +428,8 @@ body {
         letter-spacing: 3px;
     }
 
-    
+    .inicio {
+        height: 100vh;
+    }
 
 }
