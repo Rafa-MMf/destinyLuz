@@ -400,7 +400,7 @@ body {
     }
 
     .img--principal {
-        width: 100%;
+        width: 98%;
         margin-left: -20%;
     }
 
@@ -421,6 +421,7 @@ body {
     .title--principal {
         font-size: 5rem;
         white-space: initial;
+        width: 90%;
     }
 
     .title--sec {
